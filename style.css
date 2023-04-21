@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    /* background: linear-gradient(#330dda, #830cc9); */
+    background: linear-gradient(90deg, rgba(255,0,0,0) 0%, rgb(86, 126, 185) 25%, rgb(157, 34, 194) 50%, rgb(197, 15, 197) 75%, rgb(206, 15, 88) 100%);
+    background-size: 400% 400%;
+    animation: background 20s ease infinite;
+  }
+  .container{
+    width: 800px;
+    margin-left: 250px;
+  }
+
+  h1 {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    background-color: #5069ad;
+    box-shadow: 0px 0px 20px #ccc;
+  }
+  
+  form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  form .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #292c2f;
+    text-align: center;
+  }
+  .btn{
+    margin: 15px;
+    width: 80px;
+    padding: 7px;
+    color: #eff5fc;
+    background-color: #292c2f;
+    border:2px solid #00080f;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    color: #292c2f;
+    background-color: #eff5fc;
+  }
+  @keyframes background {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  #inputUnit{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  #outputUnit{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  #inputValue{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
